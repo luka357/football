@@ -1,0 +1,86 @@
+.header {
+}
+
+.header img {
+	height: 50px;
+	width: 50px;
+}
+
+.header a {
+	text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ex-3 {
+	height: 200px;
+	background-image: url("images/wallhaven-nkxwqd.png");    
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.footballers {
+	list-style-type: upper-roman;
+}
+
+.images {
+	text-align: center;
+
+}
+
+.images img {
+	margin: 0 15px;
+}
+
+.footer p {
+	margin:0;
+}
+
+.socials {
+	list-style: none;
+	padding: 0;
+}
+
+.socials img {
+	width: 32px;
+	height: 32px;
+}
+
+.socials li {
+	display: inline-block;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+.nav a {
+	text-decoration-line: none;
+	color: black;
+	margin: 0 15px;
+}
+
+.nav a:hover {
+	color: red;
+}
+
+.nav li.active a {
+	color: red;
+}
+
+.profile img {
+	margin-top: 30px;
+	vertical-align: top;
+}
+
+.desc {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
