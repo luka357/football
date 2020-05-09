@@ -1,4 +1,11 @@
-.header {
+@font-face {
+	src: url(fonts/3d-unicode.ttf);
+	font-family: nos;
+}
+
+@font-face {
+	src: url(fonts/bpg-banner-caps.ttf);
+	font-family: pro;
 }
 
 .header img {
@@ -83,4 +90,20 @@
 	display: inline-block;
 	width: 50%;
 	vertical-align: top;
+}
+
+.socials a {
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #eee;
+	width: 32px;
+	height: 32px;
+}
+
+.nav a {
+	font-family: nos;
+}
+
+.desc p {
+	font-family: pro;
 }
